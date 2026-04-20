@@ -15,8 +15,6 @@ static struct {
 			// page.
 } _mem_stat [NUM_PAGES];
 
-// test commit
-
 static pthread_mutex_t mem_lock;
 
 void init_mem(void) {
